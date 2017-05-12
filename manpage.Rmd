@@ -1,0 +1,24 @@
+---
+title: "Lookup 1973 Violent Crime Rates by US State"
+author: "Don Martin"
+date: "May 12, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview
+
+Lookup 1973 Violent Crime Rates by US State is a shiny application is designed to return a bar plot of arrests per 100,000 residents for assault, rape, and murder in 1973 for a selected US state.  This simple Shiny Application takes a US State Name input from a drop down box, and procudes a simple bar chart of 1973 violent Crime arrests for that State. 
+
+The application uses the **USArrests** dataset that comes with R, and listed below.
+
+```{r}
+USArrests
+```
+
+
+#### Reference  
+##### [Source code on github](https://github.com/dmartin60/DevelopingDataProducts)  
